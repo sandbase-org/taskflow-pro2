@@ -1,0 +1,122 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env*
+!.env.example
+
+# Poetry / uv / Pipenv
+poetry.lock          # ← usually committed, but ignore if you prefer uv.lock only
+uv.lock              # ← if using uv sync --locked
+Pipfile.lock
+
+# Testing & coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.pytest_cache/
+.cache/
+nox/
+.hypothesis/
+.pytest_cache/
+coverage/
+
+# IDEs & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Logs & databases (local only)
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+pgdata/
+postgres_data/
+
+# Alembic (migrations are committed, but ignore temp files)
+alembic/env.pyc
+alembic/versions/*.pyc
+
+# Frontend / React + Vite + Node
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Vite / esbuild / rollup cache
+frontend/.cache/
+frontend/.temp/
+
+# TypeScript & build artifacts
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+
+# npm / yarn / pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# Docker
+*.dockerignore  # ← usually committed, ignore generated ones if any
+docker-compose.override.yml
+
+# GitHub Actions / CI temp files
+.github/workflows/*.yml.bak
+
+# macOS / Windows junk
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+Temporary Items
+*.TemporaryItems
+*.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Keep these (examples / templates)
+!.env.example
+!docker-compose.yml
+!README.md
+!.gitignore
