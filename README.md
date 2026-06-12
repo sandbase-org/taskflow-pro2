@@ -11,7 +11,6 @@ Modern full-stack task management application
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6+-blue)](https://www.typescriptlang.org/)
 
----
 
 ## Features
 
@@ -22,7 +21,6 @@ Modern full-stack task management application
 - Dockerized backend + frontend + PostgreSQL
 - GitHub Actions CI (lint + test)
 
----
 
 ## Quick Start (Development)
 
@@ -39,28 +37,24 @@ docker compose up -d --build
 
 # 4. Frontend will be on → http://localhost:5173
 ```
----
 
-# 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 Feel free to submit pull requests.
 
----
 
-# 📜 License
+## License
 
 MIT License
 
----
 
-## 👨‍💻 Author
+## Author
 
 Abdullahi Bundi
 
----
 
-# ⭐ Support
+## Support
 
 If you like this project:
 
