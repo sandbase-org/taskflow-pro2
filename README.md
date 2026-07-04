@@ -2,8 +2,8 @@
 
 Modern full-stack task management application
 
-**Backend**: FastAPI + SQLModel + PostgreSQL  
-**Frontend**: React 19 + TypeScript + Vite + TanStack Query  
+**Backend**: FastAPI + SQLModel + PostgreSQL
+**Frontend**: React 19 + TypeScript + Vite + TanStack Query
 **Deployment-ready**: Docker + docker-compose + GitHub Actions
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
